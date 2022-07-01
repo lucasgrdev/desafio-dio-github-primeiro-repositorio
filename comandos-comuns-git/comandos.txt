@@ -1,4 +1,7 @@
 Git status - verifica o status do "repositorio" caso tenha tido algum alteração
 
+Git add -A (ou git add .) - atualiza o repositorio local
+
 Git commit -m - cria um commit (o -m é a mensagem que irá "descrever" o commit; deve ser acompanhado de ")
+
 Git push origin main - envia o commit
