@@ -1,0 +1,14 @@
+semantica 1 
+
+section - cria uma seção no seu arquivo
+
+header - cabeçalho da sua seção
+
+article - cria um artigo
+
+aside - conteudo relacionado ao conteudo principal da pagina (barra lateral)
+
+footer - rodape da pagina
+
+h1//6 - Titulos
+
