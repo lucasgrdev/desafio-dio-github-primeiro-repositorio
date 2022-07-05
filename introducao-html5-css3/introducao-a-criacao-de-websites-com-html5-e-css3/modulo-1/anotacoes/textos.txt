@@ -1,0 +1,7 @@
+h1 - titulo da pagina
+h2 - titulo da seção
+h3 - titulo de artigo
+p - conteudo do artigo
+a - Cria um link (href e target)
+	href: endereço
+	target: como o nosso link vai ser aberto (ex: _blank)
