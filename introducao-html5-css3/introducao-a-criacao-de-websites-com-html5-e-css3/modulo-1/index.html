@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Lucas Grande</title>
 </head>
 <body>
     <header>
-        <img src="images/Lucas.jpeg" alt="Foto do Lucas Grande Ramos" width="100px" height="100px
-        ">
-        <!--utilizei essa forma para alterar o tamanho da imagem pois foi uma forma para alterar sem utilizar CSS-->
-        <h1>Lucas Grande</h1>
+        <img src="images/Lucas.jpeg" alt="Foto do Lucas Grande Ramos" class="photo">
+        <h1 id="title">Lucas Grande</h1>
     </header>
     <section>
         <header>
-            <h2>Post's</h2>
+            <h2 class="subtitle">Post's</h2>
         </header>
-        <article>
+        <article class="post">
             <header>
-                <h3>Post #1</h3>
+                <h3 class="post_title">Post #1</h3>
             </header>
-            <img src="images/foto.jpg" alt="foto de um codigo HTML" width="20%" height="20%">
-            <!--Mesma "solução" sem utilizar CSS-->
-            <p>Lorem ipsum dolor sit amet <a href="https://github.com/lucasgrdev" target="_blank"> adipisicing elit </a>. Laudantium, obcaecati. Corrupti, repudiandae iusto? Provident illum sapiente nesciunt voluptates odit fugiat optio, officiis repellat vero voluptate, ut veniam non aperiam!</p>
+            <img src="images/foto.jpg" alt="foto de um codigo HTML" class="post_image">
+            <p class="post_content">Lorem ipsum dolor sit amet. Laudantium, obcaecati. Corrupti, repudiandae iusto? Provident illum sapiente nesciunt voluptates odit fugiat optio, officiis repellat vero voluptate, ut veniam non aperiam! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat orci nisl, quis condimentum orci malesuada sed. Suspendisse nec placerat dui, in hendrerit diam. Pellentesque vel posuere tellus, eget placerat dolor. Fusce magna eros, dapibus blandit blandit id, bibendum non nulla. Cras non urna nec lacus dapibus consectetur. Aenean porttitor leo nibh, in bibendum risus viverra non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec id est rutrum, congue turpis consequat, porttitor neque. Nunc nec pharetra arcu. Praesent maximus sodales tellus eu molestie. Quisque eget libero eu est tincidunt laoreet. Integer et rutrum tortor.
+
+            In a ex egestas, ullamcorper tellus id, ullamcorper nibh. Fusce egestas ipsum eget venenatis blandit. Vivamus a vulputate magna, posuere luctus nunc. Fusce eget lacus volutpat, hendrerit lacus quis, posuere turpis. Cras lobortis suscipit dignissim. Mauris tortor quam, tincidunt id ex eget, pretium tristique enim. Nam vel vulputate felis. Nam ultricies, quam id aliquam ultricies, nibh erat viverra libero, efficitur aliquet leo sapien at mi. Nam mollis, orci eu euismod fermentum, massa turpis congue leo, a aliquet felis magna ac enim. Suspendisse potenti. Vestibulum felis leo, venenatis ut ornare nec, rhoncus at elit. Fusce molestie augue turpis, ac mattis arcu convallis eget. Quisque euismod mauris ut varius imperdiet. Vivamus laoreet non erat mollis facilisis. Fusce gravida dictum urna. Nunc rutrum sem ut nisl molestie, eget faucibus dui varius.
+            </p>
         </article>
     </section>
     <footer>
-        <ul>
+        <ol class="contact_list">
             <li><a href="mailto:lucasgranderamos459@gmail.com">Email</a></li>
             <li><a href="https://www.linkedin.com/in/lucas-grande/" target="_blank">linkedin</a></li>
             <li><a href="https://github.com/lucasgrdev" target="_blank">github</a></li>
-        </ul>
+        </ol>
     </footer>
 </body>
 </html>
