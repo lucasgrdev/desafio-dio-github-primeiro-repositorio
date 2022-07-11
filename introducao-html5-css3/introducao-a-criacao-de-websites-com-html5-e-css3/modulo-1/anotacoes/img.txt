@@ -1,5 +1,0 @@
-img - permite a colocação de uma imagem
-img src - src é o endereço da sua imagem
-img alt - é o texto alternativo para a sua imagem
-
-caso queira otimizar fotos: tinypng.com

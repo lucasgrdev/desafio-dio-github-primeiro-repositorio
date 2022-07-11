@@ -1,3 +1,0 @@
-https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
-
-Site para estudar Tags
