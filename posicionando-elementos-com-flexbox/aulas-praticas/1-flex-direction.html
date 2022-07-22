@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos - flex direction</title>
+    <title>Fundamentos - Flex direction</title>
 
     <style>
         .flex-container{
@@ -14,7 +13,7 @@
             list-style: none;
         }
 
-        .flex-item {
+        .flex-item{
             background: blue;
             height: 50px;
             width: 50px;
@@ -29,32 +28,32 @@
             flex-direction: row;
         }
 
-        .row-reverse li{
-            background-color: red;
-
-        }
-
         .row-reverse{
             flex-direction: row-reverse;
         }
 
+        .row-reverse li{
+            background-color: red;
+        }
+
         .column{
-            flex-direction: column;
             float: left;
+            flex-direction: column;
         }
 
         .column li{
-            background-color: orange;
+            background: orange;
         }
 
         .column-reverse{
-            flex-direction: column-reverse;
             float: right;
+            flex-direction: column-reverse;
         }
 
         .column-reverse li{
             background: purple;
         }
+
     </style>
 </head>
 <body>
@@ -65,7 +64,7 @@
         <li class="flex-item">4</li>
         <li class="flex-item">5</li>
     </ul>
-    
+
     <ul class="flex-container row-reverse">
         <li class="flex-item">1</li>
         <li class="flex-item">2</li>
